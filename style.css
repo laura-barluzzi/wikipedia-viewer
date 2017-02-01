@@ -1,0 +1,112 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+html, body {
+  text-align: center;
+  background-color: #00162B;
+  color: white;
+  padding: 30px;
+}
+
+#content {
+  padding: 30px;
+}
+
+.title {
+  font-size: 50px;
+  font-family: Lobster;
+
+}
+
+#signature {
+  font-style: italic;
+  color: #EE8D00;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.separator {
+  border-right-style: solid;
+  border-right-color: white;
+}
+
+.subtitle {
+  font-family: Lobster;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.col-xs-6 {
+  margin-bottom: 50px;
+  padding-bottom:20px;
+}
+
+.input-group {
+  margin: 0 auto;
+  width: 60%;
+  height: 20px;
+  border: solid;
+  border-color: white;
+  border-radius: 5%;  
+}
+
+input[type="text"] {
+  background-color: #00162B;
+  border-color: white;
+  font-size: 20px;
+  color: white;
+}
+
+.btn {
+  background-color: #6da5ff;
+  border-color: #6da5ff;
+}
+.btn:hover {
+  background-color: #EE8D00;
+}
+
+.btn:hover .fa-search {
+  color: #00162B;
+}
+
+.fa-search {
+  color: #00162B;
+}
+
+a.no-style {
+  text-decoration: none;
+}
+
+#random {
+  border-style: solid;
+  border-color: white;
+  border-radius: 5%;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  ;
+}
+
+#random:hover {
+  background-color: #EE8D00;
+  border-color: #EE8D00;
+  color: #00162B;
+}
+
+.box {
+  background-color: #dce5f4;
+  color: #333;
+  margin: 10px;
+  padding: 5px 20px 5px 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.box:hover {
+  border-left-style: solid;
+  border-left-color: #EE8D00;
+}
+
+.text-box {
+  font-size: 20px;
+  color: #333;
+}
+

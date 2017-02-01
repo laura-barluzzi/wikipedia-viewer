@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer</title>
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+
+
+
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="style.css">
+
+  
+</head>
+
+<body>
+  <div class="container-fluid" id="wrapper">
+  <div id="content">
+      <div class="title">Wikipedia Viewer
+      </div>
+      <div id="signature">by Laura Barluzzi</div>
+    
+      <div class="container-fluid">
+        <div class="row">
+
+          <div class="col-xs-6 separator">
+            <div class="subtitle">Type a topic</div>
+            
+            
+            <div class="input-group">
+              <input type="text" id="search" class="form-control" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+              </span>
+          </div><!-- /input-group -->
+            
+            
+          </div> <!--col-left-->
+
+          <div class="col-xs-6">
+            <div class="subtitle">Click the button</div>
+            <a class="no-style" id="random" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">random article</a>
+          </div> <!--col-right-->
+          
+        </div> <!--row-->
+      </div> <!--container-fluid-->
+    
+      <div id="search-results"></div>
+     
+
+
+  </div> <!--content-->
+</div> <!--container-fluid-->
+  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
